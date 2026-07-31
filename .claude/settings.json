@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.command // \"\"' | grep -qiE \"git .*commit\" && echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"additionalContext\":\"Rappel README BEHYBRID: si ce commit concerne le projet behybrid-website, verifie AVANT de committer que son README reflete la session en cours (section Avancement + nouvelle entree dans le Journal des sessions + statuts Fonctionnalites + ligne Derniere mise a jour).\"}}' || true"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -110,3 +110,8 @@ tmp/
 # ============================
 *.bak
 *.orig
+
+# ============================
+# Livrables avec leur propre repo Git
+# ============================
+livrables/Site-Web/behybrid-website/
