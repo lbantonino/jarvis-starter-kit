@@ -1,4 +1,15 @@
 {
+  "permissions": {
+    "deny": [
+      "Read(./livrables/Site-Web/Portfolio/node_modules/**)",
+      "Read(./livrables/Site-Web/Portfolio/.next/**)",
+      "Read(./livrables/Site-Web/Portfolio/public/projects/**)",
+      "Read(./livrables/Site-Web/Portfolio/public/avatar/**)",
+      "Read(./livrables/Site-Web/Portfolio/design/originaux/**)",
+      "Read(./livrables/Site-Web/behybrid-website/node_modules/**)",
+      "Read(./livrables/Site-Web/behybrid-website/.next/**)"
+    ]
+  },
   "hooks": {
     "PreToolUse": [
       {

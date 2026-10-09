@@ -7,6 +7,36 @@
 
 ---
 
+## [2026-10-05]
+
+### Synode : point de reprise pour les sections de l'accueil
+- La section « Conception & Développement IA » est considérée comme terminée pour cette session.
+- Le 6 octobre 2026, se concentrer uniquement sur les cartes et les blocs d'introduction des sections afin d'harmoniser la position des surtitres, titres et paragraphes.
+- Commencer cette passe de cohérence par les sections « Réalisations » puis « Outils & Diagnostics IA » de la page d'accueil.
+- Conserver la hauteur actuelle des sections pendant ces ajustements de position et d'espacement.
+
+## [2026-10-02]
+
+### Synode : points à reprendre sur le hero
+- Réévaluer le titre « Simplifiez votre activité avec l’IA. Vous gardez le contrôle. » et décider s’il doit être conservé ou remplacé.
+- Revoir les couleurs des illustrations de systèmes situées à droite du hero afin de les accorder au fond `#0B192C`, avec des cartes inspirées de la sobriété visuelle de Supabase.
+- Vérifier toute la page d’accueil : qualité et cohérence des contenus, SEO naturel et local, structure des titres, liens, métadonnées et rendu visuel.
+- Réévaluer la direction graphique globale de l’accueil et décider s’il faut conserver l’alternance clair/sombre ou passer à un thème entièrement sombre.
+- Le surtitre « Le partenaire IA opérationnel des entreprises » a été retiré du hero de l’accueil.
+
+## [2026-08-09]
+
+### Site BEHYBRID : grosse passe de direction artistique (accueil)
+- Session menée dans le repo séparé `behybrid-website` (dépôt git distinct, exclu du Jarvis)
+- Refonte typographique complète du site : passage d'Akzidenz Grotesk Pro à **Archivo** (9 poids, Thin → Black) avec **Montserrat Black** en accent (utilitaire `font-mont`)
+- **Hero de l'accueil entièrement repensé** : bandeau défilant (marquee), titre "PERFORM & CONNECT", carte latérale "NEXT RUN", hauteur plein écran
+- **Animations ajoutées** : preloader "running" (coureur + barre de progression, ~2s), entrées décalées des blocs du hero, indicateur de scroll, léger zoom du logo au survol
+- Nouveaux composants : `preloader.tsx`, `scroll-cue.tsx` ; refonte logo, nav et footer
+- Point d'arrêt noté dans le README du projet : finir les ajustements desktop de l'accueil (section "What's BEHYBRID" en cours), puis passer l'accueil en revue sur mobile, avant d'attaquer `/join-us`
+- Reste à faire côté design : mettre à jour `/style-guide` avec la nouvelle typo Archivo (l'ancien specimen Akzidenz est obsolète)
+
+---
+
 ## [2026-07-31]
 
 ### Site BEHYBRID : cap e-commerce et sécurité
