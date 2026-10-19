@@ -7,6 +7,14 @@
 
 ---
 
+## [2026-10-18]
+
+### Nouveau projet Coaching Platform et mise à jour des projets
+- Lancement de la **Coaching Platform** (nom commercial à définir) : SaaS multi-coachs de programmes Running, Musculation, Hyrox et Hybride, stack Next.js, TypeScript, Supabase
+- Dossier `livrables/Saas-application-mobile/Coaching_Platform`, dépôt git séparé, poussé en privé sur `lbantonino/coaching_platform` (commit `3006890`, cahier des charges V1.1), exclu du dépôt Jarvis via `.gitignore`
+- Prochaine étape : session de cadrage P0 lancée depuis le dossier du projet avec `PROMPT_DEMARRAGE_CLAUDE_CODE.md`
+- `CONTEXT.md` mis à jour : ajout d'une section « Projets de développement » avec l'état de BEHYBRID, du portfolio, de Synode et de la Coaching Platform
+
 ## [2026-10-05]
 
 ### Synode : point de reprise pour les sections de l'accueil

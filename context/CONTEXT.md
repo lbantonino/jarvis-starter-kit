@@ -60,7 +60,15 @@ Liste des projets ou chantiers actifs sur lesquels je veux que Claude m'aide :
 - Apprentissage de l'automatisation IA et des agents IA comme compétence clé (priorité, urgent)
 - Ce Jarvis personnel, en parallèle de la formation "Deviens un Expert IA avec Claude en 2026" (formation de 6 heures)
 - Prochaine formation Claude Design à venir
-- Site web et webdesign (UI/UX) du BEHYBRID Run Club Brussels, développé avec Claude Code
+
+### Projets de développement
+
+Chaque projet vit dans `livrables/` avec son propre dépôt git, exclu du dépôt Jarvis via `.gitignore`.
+
+- **Site BEHYBRID** (`livrables/Site-Web/behybrid-website`, dépôt `lbantonino/behybrid-website`) : site et future boutique du BEHYBRID Run Club Brussels. Next.js 16, Tailwind 4, Supabase, Stripe prévu. Faits : design system, accueil, `/calendar` (données Supabase), newsletter Brevo et `/contact` en service. Prochain chantier : les trois pages légales, puis la mise en ligne d'une v1 (nom de domaine à choisir). Boutique, `/join-us` et espace membre plus tard.
+- **Portfolio personnel** (`livrables/Site-Web/Portfolio`) : portfolio bilingue en Next.js 16, positionnement « Digital Specialist Solutions ». Formulaire de contact réel via Web3Forms et démo IA « Inbox Triage » sur `/triage` (classement de messages et réponse rédigée, Gemini en niveau gratuit avec repli par règles). En ligne sur lbantonino.com.
+- **Site Synode** (`livrables/Site-Web/Synode-agency`, dépôt privé de l'organisation `Synode-agency`) : site vitrine bilingue FR/EN de Synode, l'agence IA avec des solutions IA sur mesure. Next.js 16, Tailwind 4. Refonte d'architecture, revue page par page, revue de code et animations terminées au 17/10/2026. Bloquant pour la mise en ligne : identifiant Cal.com, destination du formulaire, informations des pages légales.
+- **Coaching Platform** (nom commercial à définir, `livrables/Saas-application-mobile/Coaching_Platform`, dépôt privé `lbantonino/coaching_platform`) : application SaaS multi-coachs pour créer des programmes Running, Musculation, Hyrox et Hybride, avec espaces coach, sportif et administrateur, PDF versionné et feedback des séances. Stack Next.js, TypeScript, Supabase. Statut au 18/10/2026 : cahier des charges V1.1 prêt et commité, cadrage P0 à lancer.
 
 ---
 
