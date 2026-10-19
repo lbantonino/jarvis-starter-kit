@@ -15,6 +15,13 @@
 - Coaching Platform : historique réécrit et poussé en force, 0 commit avec Claude en co-auteur sur GitHub
 - Coaching Platform : P0-01 à P0-03 livrés (socle Next.js 16 + TypeScript strict, `.env.example`, Supabase local avec Docker, migrations et reset), Node 24 LTS installé via nvm
 
+### Coaching Platform : socle de sécurité et connexion (P1)
+- Décisions : Supabase DEV gardé en local avec Docker (rappel de démarrage/arrêt à chaque session, noté dans le CLAUDE.md du projet) ; pas de page d'inscription publique avant P8, comptes coachs créés par l'administrateur
+- P1-02/P1-03 : tables organisations, membres et admins plateforme, isolation RLS entre deux organisations de démo, 16 tests automatiques + contre-épreuve
+- P1-01 (partie a) : page de connexion, déconnexion, espace `/coach` protégé ; isolation A/B vérifiée dans l'interface ; testé dans le navigateur par Antonino
+- Remote Control activé automatiquement au démarrage des sessions Claude Code (`remoteControlAtStartup`)
+- Prochaine étape : mot de passe oublié, garde-fous coach/sportif (P1-04), puis invitation sportif (P1-05)
+
 ## [2026-10-18]
 
 ### Nouveau projet Coaching Platform et mise à jour des projets
