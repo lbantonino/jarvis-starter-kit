@@ -7,6 +7,14 @@
 
 ---
 
+## [2026-10-19]
+
+### Règle : plus jamais Claude comme co-auteur des commits
+- Décision : aucun commit ni aucune PR, dans aucun projet, ne mentionne Claude comme co-auteur. Antonino veut être le seul auteur visible sur GitHub
+- Réglage global Claude Code (`~/.claude/settings.json`, bloc `attribution` vidé) pour que la mention ne soit plus jamais ajoutée, plus règle ajoutée dans `CLAUDE.md`
+- Coaching Platform : historique réécrit et poussé en force, 0 commit avec Claude en co-auteur sur GitHub
+- Coaching Platform : P0-01 à P0-03 livrés (socle Next.js 16 + TypeScript strict, `.env.example`, Supabase local avec Docker, migrations et reset), Node 24 LTS installé via nvm
+
 ## [2026-10-18]
 
 ### Nouveau projet Coaching Platform et mise à jour des projets
