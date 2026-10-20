@@ -7,6 +7,17 @@
 
 ---
 
+## [2026-10-20]
+
+### Coaching Platform : P1 terminé, fiche sportif et carnet technique
+- P1-04 : garde-fous de rôle (coach, administrateur, sportif) et aiguillage après connexion
+- Playwright installé : 27 tests de parcours sur ordinateur et téléphone, qui ont trouvé deux vrais défauts (adresse bloquée sur /espace, connexion coupée par une mauvaise config)
+- P1-01b : mot de passe oublié par e-mail ; faille corrigée : l'inscription libre était ouverte via l'API Supabase
+- P2-01a : fiche sportif minimale, liste et ajout (e-mail unique par organisation, test d'attaque par changement d'ID dans l'URL)
+- P1-05 : invitation des sportifs (décisions d'Antonino : lien à copier, 7 jours, case « 18 ans ou plus », page /app honnête) ; le lien n'est stocké qu'en empreinte SHA-256
+- Création de `CARNET_TECHNIQUE.md` (pourquoi la stack, l'architecture et chaque étape), mis à jour à chaque story pour préparer les entretiens
+- Prochaine étape : choisir entre P0-05 (design et navigation) et la suite de P2-01
+
 ## [2026-10-19]
 
 ### Règle : plus jamais Claude comme co-auteur des commits
