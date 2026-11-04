@@ -7,6 +7,16 @@
 
 ---
 
+## [2026-11-04]
+
+### Nouveau projet : l'agent de veille LisbonIA (vols Bruxelles ↔ Lisbonne)
+- Besoin : payer le moins cher possible l'aller-retour du 5 au 8 mars 2027 pour deux adultes (semi-marathon de Lisbonne le 7 mars), et en faire un projet de portfolio
+- Décisions d'Antonino : 100 % gratuit sans dépassement possible ; alertes sur Telegram (WhatsApp écarté : payant ou instable) ; horaires préférés aller avant 12h et retour après 17h, avec une alerte aussi pour les records hors horaires ; prix pour 2 adultes avec petit sac et valise de 10 kg
+- Construit et en service : dépôt privé `lbantonino/veille-vols-lisbonne`, passages sur GitHub Actions, Ryanair en direct et Google Flights via SerpApi (quota protégé), bot Telegram LisbonIA ; messages silencieux « au travail » de 8h à 22h
+- Page animée en ligne sur lisbonia.vercel.app (option B : vérification Ryanair en direct depuis Vercel, Google jamais appelé), protégée par un code ; relecture indépendante faite et corrigée ; 76 tests
+- Règle posée par Antonino : ne jamais toucher au système de son Mac, rester dans les dossiers du projet
+- Point ouvert : GitHub n'avait pas encore lancé de passage horaire automatique le 04/11 au soir (workflow renvoyé), à vérifier
+
 ## [2026-10-20]
 
 ### Coaching Platform : P1 terminé, fiche sportif et carnet technique
