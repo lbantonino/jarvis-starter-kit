@@ -28,6 +28,9 @@ Desktop.ini
 # ============================
 .claude/settings.local.json
 
+# Impeccable (outil de design) : le cache change à chaque session ; les réglages (config.json) restent versionnés.
+.impeccable/hook.cache.json
+
 # ============================
 # Éditeurs / IDE
 # ============================
