@@ -15,6 +15,7 @@
 - Section Projets : les cinq premiers projets gardent leur mosaïque, les suivants s'alignent à droite et la bande défile sur le côté, sous le menu de gauche (sous 1200 px, les cartes restent empilées)
 - Page Inbox Triage : chaque phrase du titre tient sur une ligne, sur ordinateur comme sur téléphone
 - La page du robot étant protégée, la carte affiche son code d'accès sous la description, pour que les visiteurs puissent y entrer
+- Bande des projets utilisable à la souris classique : flèches ‹ › en haut à droite, alignées sur l'en-tête, à 20 px des cartes ; la molette garde son rôle (changer de section), l'essai de molette convertie a été abandonné à la demande d'Antonino
 - Point ouvert : changements du portfolio encore en local, ni commités ni mis en ligne
 
 ### Escale : l'agent de veille des vols enchaîne les missions
