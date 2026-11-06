@@ -24,6 +24,7 @@
 - LisbonIA : messages « viens me voir travailler » supprimés à sa demande (seulement meilleur prix, prix cible et panne) ; vol retour ajouté aux records Google ; clé GitHub de Vercel réparée (permission Contents)
 - Construit, testé (113 tests), poussé et vérifié en ligne ; page de démonstration PalermoIA contrôlée sur ordinateur et téléphone ; relecture indépendante finale faite, 3 corrections appliquées
 - Point ouvert : mesurer le vrai supplément Ryanair de la valise de 20 kg avant le 9 mars 2027 (estimé à 40 € par vol)
+- Rangement : nouveau dossier `livrables/Automatisation/` (agents IA et automatisations) ; le dossier de l'agent y est déplacé depuis `~/Documents/Claude/`, il garde son propre dépôt Git, exclu du dépôt Jarvis
 
 ## [2026-11-04]
 

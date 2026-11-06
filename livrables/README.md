@@ -13,7 +13,8 @@ Un fichier fourni par Antonino ne va jamais dans `livrables/`. Un fichier produi
 
 - **`Site-Web/`** : sites internet (vitrine, portfolio, landing pages)
 - **`Saas-application-mobile/`** : applications web et mobiles (SaaS, apps avec frontend/backend)
-- **`Applications/`** : outils, scripts, automatisations (CLI, scripts d'automatisation, utilitaires)
+- **`Applications/`** : outils et scripts (CLI, utilitaires, intégrations)
+- **`Automatisation/`** : agents IA et automatisations qui tournent seuls (veille, alertes, tâches planifiées)
 
 Chaque sous-dossier a son propre README qui précise ce qui y va.
 
@@ -24,6 +25,7 @@ Chaque projet vit dans son propre sous-dossier, à l'intérieur du dossier thém
 ```
 livrables/Site-Web/behybrid-site/
 livrables/Applications/scraper-actualites/
+livrables/Automatisation/veille-vols-lisbonne/
 ```
 
 Règles :
