@@ -7,6 +7,24 @@
 
 ---
 
+## [2026-11-06]
+
+### Portfolio : Escale IA ajouté comme projet terminé
+- Escale IA (l'agent de veille des vols) est considéré comme un projet de portfolio terminé : 6e carte du portfolio, badge Automate, image `escale-ia.png`, description FR et EN
+- Lien provisoire https://lisbonia.vercel.app/ : l'adresse changera en mars 2027, à mettre à jour dans `src/lib/content.ts`
+- Section Projets : les cinq premiers projets gardent leur mosaïque, les suivants s'alignent à droite et la bande défile sur le côté, sous le menu de gauche (sous 1200 px, les cartes restent empilées)
+- Page Inbox Triage : chaque phrase du titre tient sur une ligne, sur ordinateur comme sur téléphone
+- La page du robot étant protégée, la carte affiche son code d'accès sous la description, pour que les visiteurs puissent y entrer
+- Point ouvert : changements du portfolio encore en local, ni commités ni mis en ligne
+
+### Escale : l'agent de veille des vols enchaîne les missions
+- Décision d'Antonino : après Lisbonne, l'agent ne s'arrête plus. Projet renommé **Escale** ; la mission Lisbonne (LisbonIA) continue jusqu'au départ, puis la mission Palerme (**PalermoIA**) démarre le 9 mars 2027 à 8h
+- PalermoIA : un rapport Telegram par semaine, le lundi, avec la semaine de 7 jours la moins chère Bruxelles ↔ Palerme, départ entre J+30 et J+90, pour 1 adulte avec petit sac et valise de 20 kg ; toujours 100 % gratuit (1 recherche Google au plus par rapport)
+- Message de bascule automatique : nouveau nom, rappel de renommer le bot (BotFather /setname), de renouveler la clé GitHub avant le 31/03/2027 et, s'il le souhaite, d'ajouter le domaine escale-ia.vercel.app
+- LisbonIA : messages « viens me voir travailler » supprimés à sa demande (seulement meilleur prix, prix cible et panne) ; vol retour ajouté aux records Google ; clé GitHub de Vercel réparée (permission Contents)
+- Construit, testé (113 tests), poussé et vérifié en ligne ; page de démonstration PalermoIA contrôlée sur ordinateur et téléphone ; relecture indépendante finale faite, 3 corrections appliquées
+- Point ouvert : mesurer le vrai supplément Ryanair de la valise de 20 kg avant le 9 mars 2027 (estimé à 40 € par vol)
+
 ## [2026-11-04]
 
 ### Nouveau projet : l'agent de veille LisbonIA (vols Bruxelles ↔ Lisbonne)
