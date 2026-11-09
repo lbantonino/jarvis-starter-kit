@@ -9,6 +9,16 @@
 
 ## [2026-11-06]
 
+### Coory : bêta privée et mise en ligne du 13/11
+- Le MVP mis en ligne le 13/11/2026 sera la **vraie app pour Gianluca**, et Coory sera aussi montrée sur le site Synode
+- **Formule B** : deux apps séparées, la vraie (privée, vraies données) et une démo avec des sportifs fictifs, remise à zéro, pour les visiteurs de Synode ; les vraies données ne sont jamais visibles du public
+- **Bêta privée** : testeurs = Gianluca, le frère d'Antonino et d'autres coachs ; inscription avec un **code d'accès** donné par Antonino (l'app reste visible, mais seuls les testeurs créent un compte)
+- **Éditeur = Antonino en personne**, sans société pour l'instant : pages légales avec une simple adresse e-mail de contact dédiée (à créer par Antonino, par exemple sur Gmail)
+- RGPD : chaque coach est responsable des données de ses sportifs, Antonino (éditeur) est son sous-traitant ; les clauses de sous-traitance iront dans les conditions d'utilisation acceptées à l'inscription
+- Langues : français seul pour le 13/11 ; français et anglais plus tard, quand le projet deviendra professionnel
+- Vision : peut-être une marque et une entreprise, et une publication sur les stores (App Store en indépendant), selon les retours des testeurs
+- Organisation : Antonino dessine les maquettes de l'authentification et des pages légales ; l'étude des applis de référence pour les programmes vient après
+
 ### Portfolio : Escale IA ajouté comme projet terminé
 - Escale IA (l'agent de veille des vols) est considéré comme un projet de portfolio terminé : 6e carte du portfolio, badge Automate, image `escale-ia.png`, description FR et EN
 - Lien provisoire https://lisbonia.vercel.app/ : l'adresse changera en mars 2027, à mettre à jour dans `src/lib/content.ts`
