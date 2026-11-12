@@ -7,6 +7,17 @@
 
 ---
 
+## [2026-11-12]
+
+### Synode : site complet, Smart en cours, prospection lancée
+- **Associé** : Synode est menée avec **Killian Schoebben**, sans société (deux personnes physiques, rue des Alcyons 86, 1082 Bruxelles)
+- **Smart** : inscription en cours. Antonino est membre, Killian pas encore, l'outil Activité n'est pas ouvert ; rendez-vous conseiller demandé, attendu vers le 16/11
+- **Prospection lancée** : décision de prospecter dès maintenant, sans rien signer ni facturer avant l'ouverture de l'Activité Smart
+- **Site synode-agency.com** (Netlify) : formulaire Brevo, accusé de réception avec signature, suivi Brevo anonymisé, Cal.com au clic, tous en service ; pages légales FR/EN rédigées (Antonino et Killian responsables du site et responsables conjoints du traitement), « Brouillon » jusqu'aux informations de Smart
+- **Accord de responsabilité conjointe** (art. 26 RGPD) rédigé dans `livrables/Synode-juridique/`, à compléter et signer
+
+---
+
 ## [2026-11-06]
 
 ### Coory : bêta privée et mise en ligne du 13/11
