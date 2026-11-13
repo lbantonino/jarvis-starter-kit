@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Synode//Rappels//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:synode-purge-rgpd@synode-agency.com
+DTSTAMP:20261113T091315Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+RRULE:FREQ=MONTHLY;INTERVAL=3;BYDAY=1MO
+SUMMARY:Synode · Supprimer les demandes de plus de 12 mois (RGPD)
+DESCRIPTION:Promis dans la politique de confidentialité : supprimer les 
+ demandes 12 mois après le dernier échange.\n\n1. Brevo › Contacts ›
+  Listes › Demandes Synode (n° 2) : supprimer les contacts dont le dern
+ ier échange date de plus de 12 mois\n2. Cal.com : supprimer les réserva
+ tions correspondantes\n3. Agenda Google de Synode : supprimer les rendez-
+ vous correspondants\n4. Gmail et boîte Hostinger contact@synode-agency.c
+ om : supprimer les e-mails correspondants\n5. Noter la purge dans le regi
+ stre (accord de responsabilité conjointe\, art. 6 et 8)\n\nDétails : li
+ vrables/Synode-juridique/accord-responsabilite-conjointe.md
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Synode · Supprimer les demandes de plus de 12 mois (RGPD)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:synode-netlify-usage@synode-agency.com
+DTSTAMP:20261113T091315Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+RRULE:FREQ=MONTHLY;BYMONTHDAY=20
+SUMMARY:Synode · Vérifier Netlify › Usage (crédits)
+DESCRIPTION:app.netlify.com › projet synode-agency › Usage.\n\nOffre 
+ gratuite : 300 crédits par mois. Un déploiement coûte 15 crédits\, 1 
+ Go de trafic 20\, 10 000 requêtes 2.\nÀ zéro\, le site est mis en paus
+ e jusqu'au mois suivant.\n\nSi le compteur est haut : grouper les modific
+ ations et pousser moins souvent sur main.
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Synode · Vérifier Netlify › Usage (crédits)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+END:VCALENDAR
