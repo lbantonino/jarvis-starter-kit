@@ -7,6 +7,18 @@
 
 ---
 
+## [2026-11-14]
+
+### Coory : MVP terminé, mise en ligne sur Vercel
+- **Décision : Vercel** pour la bêta privée (Hobby gratuit tant que rien n'est vendu, Pro à 20 $/mois au premier client payant), en attendant le vrai lancement sur les stores ; Netlify écarté pour l'instant (limite de 60 s qui coupe l'assistant quand il écrit un programme, crédits mensuels limités)
+- **Base de données** : reste sur Supabase (Europe), plan gratuit pendant la bêta avec une sauvegarde hebdomadaire à mettre en place, Supabase Pro au premier client payant
+- **Assistant IA** : prépare des actions en cartes validées d'un clic (séances, paiements, dépenses, tâches, fiches sportifs) et désormais des **brouillons de programme** (D-172) ; **dictée vocale** par un bouton micro (D-173) ; interface visible même sans clé pour les comptes autorisés
+- **Clé Claude branchée en local** : elle doit être limitée à un espace de travail ; limite de dépense de 30 $/mois posée dans la Console ; coût mesuré d'environ 5 à 10 centimes par demande simple ; en production, une clé de compte de service
+- Accès à l'assistant : abonnement Coory, ou adresses autorisées par l'administrateur (Gianluca et Antonino), jamais écrites dans Git
+- Session de mise en ligne prévue le 14/11 avec Claude, guide `docs/DEPLOIEMENT.md`
+
+---
+
 ## [2026-11-12]
 
 ### Synode : site complet, Smart en cours, prospection lancée
