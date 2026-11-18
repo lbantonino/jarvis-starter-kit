@@ -1,0 +1,20 @@
+{
+  "uid": "synode_hubspot_webhooks",
+  "type": "webhooks",
+  "config": {
+    "settings": {
+      "targetUrl": "https://position-decorative-terminals-taylor.trycloudflare.com/webhooks/hubspot",
+      "maxConcurrentRequests": 10
+    },
+    "subscriptions": {
+      "crmObjects": [
+        {
+          "subscriptionType": "object.propertyChange",
+          "objectType": "deal",
+          "propertyName": "dealstage",
+          "active": false
+        }
+      ]
+    }
+  }
+}

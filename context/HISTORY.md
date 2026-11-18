@@ -7,7 +7,29 @@
 
 ---
 
+## [2026-11-16]
+
+### Synode : Killian membre de Smart, questionnaire avant rendez-vous
+- **Killian Schoebben est devenu membre de Smart** : nous sommes maintenant membres tous les deux, l'Activité commune reste à ouvrir
+- Smart (équipe Bleue Bruxelles) a envoyé un **questionnaire préalable au rendez-vous** ; réponses rédigées (projet « Synode Agency », situation de chacun, prix pas encore fixés, questions sur l'entité de facturation, le site et le RGPD) et demande d'un rendez-vous à deux pour lier l'Activité. À renvoyer à bruxellesblue@smart.coop
+- **Décision affirmée** : Smart est une première étape pour se faire connaître et facturer les premiers clients en règle ; objectif à terme, créer une vraie société
+- Coory n'est pas lié à Synode : il n'est pas mentionné auprès de Smart
+
+---
+
 ## [2026-11-14]
+
+### Synode : repositionnement en entreprise technologique
+- **Décision (validée avec Killian)** : Synode n'est plus présentée comme une « agence IA », jugée trop réductrice, mais comme une **entreprise technologique** spécialisée en intelligence artificielle, intégration de systèmes connectés et ingénierie logicielle. Le but : être vue comme une vraie entreprise de pros de l'informatique, pas seulement de l'IA
+- Point de départ : un brief de ChatGPT jugé pertinent, suivi avec des ajustements (langage simple, les 3 domaines répartis dans les 6 familles existantes sans toucher au menu ni aux pages). La piste du matin « intégration d'abord, l'IA ensuite » a été abandonnée : l'IA reste en tête
+- **Site mis à jour en FR et EN** : titre de l'accueil « Des systèmes sur mesure, connectés et intelligents », nouvelle présentation de Synode, « solutions IA sur mesure » remplacé par « Nos solutions sur mesure, avec l'IA intégrée », « projet IA » devenu « projet », rôles d'Antonino (IA, agents & automatisations) et de Killian (Logiciels & intégrations), FAQ « Développez-vous aussi des logiciels sans IA ? », titres Google, image de partage et données structurées alignés. Rien n'est commité
+- **Signature e-mail passée en texte** (FR et EN) à la place de l'image qui disait « Agence IA » : dans l'accusé de réception du formulaire (à déployer) et dans une page à copier pour Gmail, `livrables/Synode-communication/signature-gmail.html` (à coller par Antonino dans les paramètres de Gmail)
+
+### Synode : positionnement vers les grandes entreprises, site relu
+- **Décision de positionnement** : Synode ne veut pas être associée à une agence « pour TPE et PME » ; objectif de travailler un jour avec de grandes entreprises. Les étiquettes TPE/PME ajoutées aux cas d'usage ont été retirées le jour même
+- **Relecture du site par le père d'Antonino** (dirigeant de PME) appliquée : l'exemple des automatisations passe de la facture au cycle d'un devis (les factures B2B belges passent par Peppol depuis le 1/1/2026), les intégrations remontent en 2e position, la data cite les outils standards (Power BI, Excel), la formation devient « incluse dans chaque projet » (plus une offre à part), nouvelle carte « Garder la mémoire de l'entreprise » et nouvel écran fictif de logiciel métier (suivi d'interventions)
+- **Cas d'usage** : 22 cas au lieu de 12, dont 10 qui parlent aux grandes organisations (documentation interne, appels d'offres, service client multilingue, support interne, documents en volume, intégration au SI, sécurité, conformité RGPD et AI Act, pilotage de direction, contrôles financiers) ; l'accueil en montre quatre (deux du quotidien, deux de grande organisation)
+- Étude de marché demandée : vers quels services Synode doit aller (IA, intégration, développement, sécurité, formation), avec l'exemple de l'interconnexion des logiciels d'une école (ProEco)
 
 ### Coory : MVP terminé, mise en ligne sur Vercel
 - **Décision : Vercel** pour la bêta privée (Hobby gratuit tant que rien n'est vendu, Pro à 20 $/mois au premier client payant), en attendant le vrai lancement sur les stores ; Netlify écarté pour l'instant (limite de 60 s qui coupe l'assistant quand il écrit un programme, crédits mensuels limités)

@@ -1,0 +1,25 @@
+{
+  "uid": "synode_hubspot_app",
+  "type": "app",
+  "config": {
+    "description": "Connecte le CRM au parcours commercial fictif de la démo Synode.",
+    "name": "Synode Démo",
+    "distribution": "private",
+    "auth": {
+      "type": "static",
+      "requiredScopes": [
+        "crm.objects.contacts.read",
+        "crm.objects.contacts.write",
+        "crm.objects.companies.read",
+        "crm.objects.companies.write",
+        "crm.objects.deals.read",
+        "crm.objects.deals.write"
+      ]
+    },
+    "permittedUrls": {
+      "fetch": ["https://api.hubapi.com"],
+      "iframe": [],
+      "img": []
+    }
+  }
+}
