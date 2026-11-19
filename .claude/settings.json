@@ -5,7 +5,9 @@
       "ClaudeInChromeDomain(coros-teams.feishu.cn)",
       "ClaudeInChromeDomain(localhost:60170)",
       "ClaudeInChromeDomain(coory-beta.vercel.app)",
-      "ClaudeInChromeDomain(emplois.be.indeed.com)"
+      "ClaudeInChromeDomain(emplois.be.indeed.com)",
+      "ClaudeInChromeDomain(jobs.battlekart.com)",
+      "ClaudeInChromeDomain(lbantonino.com)"
     ],
     "deny": [
       "Read(./livrables/Site-Web/Portfolio/node_modules/**)",
@@ -24,7 +26,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "jq -r '.tool_input.command // \"\"' | grep -qiE \"git .*commit\" && echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"additionalContext\":\"Rappel README BEHYBRID: si ce commit concerne le projet behybrid-website, verifie AVANT de committer que son README reflete la session en cours (section Avancement + nouvelle entree dans le Journal des sessions + statuts Fonctionnalites + ligne Derniere mise a jour).\"}}' || true"
+            "command": "jq -r '.tool_input.command // \"\"' | grep -qiE \"git .*commit\" && echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"additionalContext\":\"Rappel BEHYBRID: si ce commit concerne le projet behybrid-website, verifie AVANT de committer que JOURNAL-DES-SESSIONS.md (local, hors GitHub) reflete la session. Le README est la documentation du projet : ne le modifier que si la documentation change.\"}}' || true"
           }
         ]
       }
