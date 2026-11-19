@@ -4,7 +4,8 @@
       "ClaudeInChromeDomain(support.coros.com)",
       "ClaudeInChromeDomain(coros-teams.feishu.cn)",
       "ClaudeInChromeDomain(localhost:60170)",
-      "ClaudeInChromeDomain(coory-beta.vercel.app)"
+      "ClaudeInChromeDomain(coory-beta.vercel.app)",
+      "ClaudeInChromeDomain(emplois.be.indeed.com)"
     ],
     "deny": [
       "Read(./livrables/Site-Web/Portfolio/node_modules/**)",
